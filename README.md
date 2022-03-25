@@ -1,1 +1,1 @@
-# -Basic-Project-GraphQL
+# Basic-Project-GraphQL
