@@ -33,7 +33,7 @@ module.exports = async ({ req }) => {
       if (!admin) throw err;
     },
     validarUsuarioFiltro(filtro) {
-      if (!admin) return;
+      if (admin) return;
       if (!usuario) throw err;
       if (!filtro) throw err;
 
