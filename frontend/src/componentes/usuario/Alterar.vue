@@ -124,6 +124,7 @@ export default {
                 }
             }).then(resultado => {
                 this.dados = resultado.data.alterarUsuario
+                this.filtro = {}
                 this.usuario = {}
                 this.erros = null
             }).catch(e => {
